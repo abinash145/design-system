@@ -55,6 +55,7 @@
     "react-spring-bottom-sheet": "^3.4.1",
     "react-world-flags": "^1.6.0",
     "slick-carousel": "^1.8.1",
-    "states-cities-db": "^1.4.1"
+    "states-cities-db": "^1.4.1",
+    "swc-loader": "^0.2.6"
   }
 }
