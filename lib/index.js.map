@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/components/AbinashButton.tsx"],"sourcesContent":["import React from \"react\";\r\n\r\nconst AbinashButton = () => {\r\n  return <div>AbinashButton</div>;\r\n};\r\n\r\nexport default AbinashButton;\r\n"],"names":[],"mappings":";;;;AAEA,IAAM,aAAa,GAAG,YAAA;AACpB,IAAA,OAAO,iDAAwB,CAAC;AAClC;;;;"}
