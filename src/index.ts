@@ -1,1 +1,1 @@
-export { default as AbinashButton } from "./components/AbinashButton";
+export * from "./components";

@@ -11,6 +11,7 @@ const config: StorybookConfig = {
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
     "@storybook/addon-styling-webpack",
+    "@storybook/addon-postcss",
   ],
 
   framework: {
@@ -18,7 +19,18 @@ const config: StorybookConfig = {
     options: {},
   },
 
-  docs: {},
+  swc: () => ({
+    jsc: {
+      transform: {
+        react: {
+          runtime: "automatic",
+        },
+      },
+    },
+  }),
+  docs: {
+    autodocs: "tag",
+  },
 
   typescript: {
     reactDocgen: "react-docgen-typescript",
